@@ -193,7 +193,7 @@ class ImagePainterController extends ChangeNotifier {
     final recorder = ui.PictureRecorder();
     final canvas = Canvas(recorder);
     SignaturePainter painter =
-        SignaturePainter(controller: this, backgroundColor: Colors.blue);
+        SignaturePainter(controller: this, backgroundColor: Colors.white);
 
     Size size = Size(_rect.width, _rect.height);
 
